@@ -1,0 +1,493 @@
+/* DESKTOP */
+@media (min-width: 1025px) {
+    .container-fluid .section {
+      padding-left: 245px;
+      margin-top: 80px;
+      margin-bottom: -100px;
+    }
+  }
+
+
+  /* MOBILE */
+  @media (max-width: 1025px) {
+    .container-fluid .section{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 60px; 
+    }
+  
+
+  }
+
+
+
+
+
+
+
+
+body {
+
+    background-image: url('images/background\ form.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100% 100%;
+  
+  }
+  
+  
+  
+  
+  .wrapper-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper-left .sidebar-left {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background-color: rgb(221, 224, 226) ;
+    margin-top: -10px;
+  }
+  
+  
+  
+  .icon-sidebar-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .bg-active {
+    background-color: #b5b7b7;
+    color: #000;
+    font-weight: bold;
+    display: none !important;
+  }
+  
+  /* NAVBAR FOOTER */
+  .navbar-zoom {
+    background-color: #30a3db;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .navbar-zoom {
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: -10;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .grid-navigation {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25% 25% 25% 25%;
+        grid-template-columns: 25% 25% 25% 25%;
+  }
+  
+  .title-navegacion-active {
+    display: block;
+    text-align: center;
+  }
+  
+  .title-navegacion {
+    display: block;
+    text-align: center;
+  }
+  
+  @media (max-width: 1025px) {
+    .wrapper-left {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .navbar-zoom {
+      display: none;
+    }
+  }
+  
+  
+  
+  /*CARDS*/
+  .title-card {
+    font-size: 15px;
+  }
+  .author-card {
+    margin-top: 5px;
+    color: #aaaaaa;
+  }
+  .img-avatar-card {
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  
+  
+  /* DESKTOP */
+  @media (min-width: 1025px) {
+    .container-cards {
+      margin-left: 260px;
+      margin-top: 50px;
+    }
+    .grid-cards {
+      display: grid;
+      grid-template-columns: 50% 50% ;
+    }
+    .card-youtube {
+      width: 96%;
+      background-color: transparent;
+    }
+    .img-card {
+      height: 140px;
+      width: 250px;
+    }
+  
+    .container1{
+      margin-top: -60px; 
+      margin-left: 240px; 
+      margin-bottom: -530px;
+    }
+  }
+  
+  
+  
+  
+  
+  /*NAVBAR TOP*/
+  /* MOBILE */
+  @media (max-width: 1025px) {
+    .top-navbar {
+      display: none;
+    }
+    .top-navbar-mobile {
+      width: 100%;
+      padding: 18px;
+      background-color: #30a3db;
+      position: fixed;
+      z-index: 1000;
+    }
+    .grid-nav-mobile {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: auto auto;
+          grid-template-columns: auto auto;
+    }
+    .img-nav-user-mobile {
+    
+      margin-left: 10px;
+      height: 24px;
+      width: 24px;
+      border-radius: 50px;
+    }
+   
+    .container1{
+      margin-top: 30px; 
+      margin-bottom: -530px;
+      padding: -10px;
+    }
+  }
+  
+  /*NAVBAR TOP DESKTOP */
+  @media (min-width: 1025px) {
+    .top-navbar-mobile {
+      display: none;
+    }
+    .top-navbar {
+      background-color: #30a3db;
+      padding-top: 14px;
+     color: #fff;
+     height: 70px;
+     margin-left: -100px;
+     margin-right: -100px;
+    }
+    .fixed-top-navbar {
+      position: fixed;
+      right: 0;
+      /* Para que este arriba */
+      top: 0;
+      left: 0;
+      z-index: 1030;
+    }
+    .grid-nav-top {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 24% auto auto;
+          grid-template-columns: 24% auto auto;
+    }
+  
+    .grid-icons-right {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: auto auto auto auto;
+          grid-template-columns: auto auto auto auto;
+    }
+    .box-icons-right {
+      margin-right: 10px;
+      margin-left: 10px;
+      height: 32px;
+      width: 32px;
+      border-radius: 50px;
+    }
+  }
+  /*# sourceMappingURL=home.css.map */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* CSS */
+  .button-1 {
+    background-color: #fff;
+    border: 0 solid #c7caca;
+    width: 225px;
+    margin-top: 5px;
+    margin-left: 7px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+  }
+  
+  .button-1{
+    background-color: #c7caca;
+    color: #fff;
+  }
+  
+  
+  /* CSS */
+  .button-2 {
+    background-color: #fff;
+    border: 0 solid #c7caca;
+    width: 225px;
+    margin-top: 5px;
+    margin-left: 7px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-width: solid2px;
+    border-color: black;
+  }
+  
+  .button-2:hover {
+    background-color: #c7caca;
+    color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .button-2 {
+      font-size: 1.125rem;
+      padding: 1rem 2rem;
+    }
+  }
+  
+  
+  
+  .card1{
+  background-color: #f2f2f2;
+  }
+  
+  .card1:hover {
+    background-color: rgb(230, 219, 219);
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  img{
+    width:150px;
+    height:150px ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+/* ZOOM IN PICTURE */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.zoomWrapper {
+
+  max-width: 500px;
+  overflow: hidden;
+  margin: 0 auto 20px auto;
+  /* -- Prevent flicker -- */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.zoomWrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.zoomWrapper img:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.flasher {
+  animation: flash 300ms infinite;
+}
+
+/* ZOOM IN PICTURE */
+
+/* PARAGRAPH 2 and 3 */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+  
+  

@@ -1,0 +1,267 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background-image: url('images/DON-T-CHASE-DREAMS-Desktop-1600x900.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #30a2dbb9;
+    width: 25%;
+    min-height: 25%;
+    display: flex;
+    flex-direction: column;
+    /*margin-left:auto;
+	margin-right:auto;*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h5 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #e0dada;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    width: 100%;
+    padding: 1em 5px;
+    text-align: center;
+    min-height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info.error {
+    border: 1px solid #47cf73;
+    background-color: #ff3c41;
+    color: #47cf73;
+}
+
+.info p {
+    margin: auto;
+    padding: 5px;
+    font-size: 11px;
+}
+
+.info.good {
+    border: 1px solid #416d50;
+    background-color: #47cf73;
+    color: #416d50;
+}
+
+input {
+    height: 35px;
+    padding: 5px 5px;
+    margin: 10px 0px;
+    background-color: #e0dada;
+    border: none;
+}
+
+input[type=button] {
+    height: 40px;
+    padding: 5px 5px;
+    margin: 10px 0px;
+    font-weight: bold;
+    background-color: #37506b;
+    border: none;
+    color: #e0dada;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=button]:hover {
+    background-color: #1b2d41;
+}
+
+@-webkit-keyframes shake {
+    from, to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate(10px, 0, 0);
+    }
+}
+
+.shake {
+    animation-name: shake;
+    animation-duration: 1s;
+    /*animation-fill-mode: both;*/
+}
+
+@media screen and (max-width: 780px) {
+    section {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESTOP */
+@media (max-width: 3025px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: auto
+    }
+}
+
+@media (max-width: 1100px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 100px;
+        
+      
+    }
+}
+
+@media (max-width: 1100px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 97px;
+        
+      
+    }
+}
+
+
+@media (max-width: 1000px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 88px;
+        
+      
+    }
+}
+
+
+@media (max-width: 900px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 77px;
+        
+      
+    }
+}
+
+
+@media (max-width: 800px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 67px;
+        
+      
+    }
+}
+
+
+@media (max-width: 700px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 240px;
+        
+      
+    }
+}
+
+
+@media (max-width: 600px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 205px;
+        
+      
+    }
+}
+
+
+@media (max-width: 500px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 165px;
+        
+      
+    }
+}
+
+
+@media (max-width: 400px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 130px;
+        
+      
+    }
+}
+
+@media (max-width: 321px) {
+    img {
+        border-radius: 100%;
+        padding-left: 30%;
+        padding-right: 30%;
+        height: 105px;
+        
+      
+    }
+}
+
+
+
+
+
+
+

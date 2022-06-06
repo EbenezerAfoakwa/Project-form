@@ -1,0 +1,465 @@
+
+
+body {
+
+  background-image: url('images/DON-T-CHASE-DREAMS-Desktop-1600x900.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
+
+}
+
+
+
+
+.wrapper-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.wrapper-left .sidebar-left {
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  background-color: rgb(221, 224, 226) ;
+  margin-top: -10px;
+  z-index: 500;
+}
+
+
+
+.icon-sidebar-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-active {
+  color: #000;
+  font-weight: bold;
+ 
+}
+
+/* NAVBAR FOOTER */
+.navbar-zoom {
+  background-color: #30a3db;
+  font-size: 12px;
+  color: #fff;
+}
+
+.navbar-zoom {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: -10;
+  left: 0;
+  z-index: 1030;
+}
+
+.grid-navigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+}
+
+.title-navegacion-active {
+  display: block;
+  text-align: center;
+}
+
+.title-navegacion {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 1025px) {
+  .wrapper-left {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .navbar-zoom {
+    display: none;
+  }
+}
+
+
+
+/*CARDS*/
+.title-card {
+  font-size: 15px;
+}
+.author-card {
+  margin-top: 5px;
+  color: #aaaaaa;
+}
+.img-avatar-card {
+  height: 36px;
+  width: 36px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+/* MOBILE */
+@media (max-width: 1025px) {
+  .container-cards {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .grid-cards {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .card-youtube {
+    width: 98%;
+  }
+  .img-card {
+    height: 170px;
+    width: 100%;
+  }
+  .container1{
+    margin-top: -50px; 
+    margin-bottom: 200px;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+  .container-cards {
+    margin-left: 260px;
+    margin-top: 50px;
+  }
+  .grid-cards {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+  }
+  .card-youtube {
+    width: 96%;
+    background-color: transparent;
+  }
+  .img-card {
+    height: 140px;
+    width: 250px;
+  }
+
+  .container1{
+    width: 82.6%;
+    margin-top: 0px; 
+    margin-left: 245px; 
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.849);
+    
+  }
+
+  footer{
+    margin-left: 60px;
+  }
+}
+
+
+
+
+
+  /*NAVBAR TOP*/
+  /* MOBILE */
+  @media (max-width: 1025px) {
+    .top-navbar {
+      display: none;
+    }
+    .top-navbar-mobile {
+      width: 100%;
+      padding: 18px;
+      background-color: #30a3db;
+      position: fixed;
+      z-index: 1000;
+ 
+    }
+    .grid-nav-mobile {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: auto auto;
+          grid-template-columns: auto auto;
+    }
+    .img-nav-user-mobile {
+    
+      margin-left: 10px;
+      height: 24px;
+      width: 24px;
+      border-radius: 50px;
+    }
+   
+    .container1{
+      margin-top: 20px; 
+      margin-bottom: -530px;
+      padding: -10px;
+    }
+  }
+/*NAVBAR TOP DESKTOP */
+@media (min-width: 1025px) {
+  .top-navbar-mobile {
+    display: none;
+  }
+  .top-navbar {
+    background-color: #30a3db;
+    padding-top: 14px;
+   color: #fff;
+   height: 70px;
+  }
+  .fixed-top-navbar {
+    position: fixed;
+    right: 0;
+    /* Para que este arriba */
+    top: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .grid-nav-top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 24% auto auto;
+        grid-template-columns: 24% auto auto;
+  }
+
+  .grid-icons-right {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+  }
+  .box-icons-right {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+  }
+
+  .footer-area-bottom{
+    margin-left: 170px;
+  }
+}
+/*# sourceMappingURL=home.css.map */
+
+
+
+
+
+
+
+
+
+/* CSS */
+.button-1 {
+  background-color: #fff;
+  border: 0 solid #c7caca;
+  width: 225px;
+  margin-top: 5px;
+  margin-left: 7px;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button-1{
+  background-color: #c7caca;
+  color: #fff;
+}
+
+
+/* CSS */
+.button-2 {
+  background-color: #fff;
+  border: 0 solid #c7caca;
+  width: 225px;
+  margin-top: 5px;
+  margin-left: 7px;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-width: solid2px;
+  border-color: black;
+}
+
+.button-2:hover {
+  background-color: #c7caca;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-2 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+
+.card1{
+background-color: #f2f2f2;
+}
+
+.card1:hover {
+  background-color: rgb(230, 219, 219);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+  font-size: 12pt;
+  color: black;
+}
+canvas {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+input {
+  font-family: verdana;
+  font-size: 10pt;
+}
